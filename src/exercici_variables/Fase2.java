@@ -21,7 +21,7 @@ public class Fase2 {
 		int leap = 4;
 
 		// Anys de traspàs entre 1948 i any de naixement
-		int num_leap = (any - BASE_YEAR) / 4;
+		int num_leap = (any - BASE_YEAR) / leap;
 
 		// Mostrar per pantalla
 		// 1948 no incluido. Para incluirlo, ++num_leap en el println
