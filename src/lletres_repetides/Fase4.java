@@ -1,11 +1,12 @@
 package lletres_repetides;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Fase3 {
+public class Fase4 {
 
 	public static void main(String[] args) {
 
@@ -41,5 +42,13 @@ public class Fase3 {
 				else nameMap.replace(c, nameMap.get(c)+1);
 			}
 		}
+		
+		List<Character> surname = Arrays.asList('G','a','r','c','í','a');
+		
+		List<Character> fullName = new ArrayList<Character>(name);
+		
+		fullName.add(' ');
+		
+		fullName.addAll(surname);
 	}
 }
